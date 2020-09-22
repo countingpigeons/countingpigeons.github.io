@@ -21,3 +21,12 @@ A collection of my recent data science and engineering projects and some custom 
       ------------|------|--------|--------|------------
       ![Solitaire - pairwise locations - multi](README_solitaire_pairwise_card_values_multi.jpg?raw=true "Scatter") | ![Solitaire - pairwise locations - single](README_solitaire_pairwise_card_values_single.jpg?raw=true "FormattedTable") | ![Solitaire - Model accuracy - added noisy explanatory](README_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](README_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](README_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
 
+
+### Readership Analytics for Sellside Banks 
+  - **Type:** Business Intelligence.
+  - **Description:** A Business Intelligence reporting portal for Research Departments at investment banks to measure the popularity and market penetration of their published research documents over multiple slices versus competitors. Collaborated on the business/design/metric aspects of the project and then was responsible for the technical implementation using Microstrategy. Completed all modeling (conceptual, logical, physical, dimensional); wrote and scheduled a 70+ step daily ETL in the cloud, created all reports, dashboards, and custom analytical SQL, and QA'd embedding into production environment with single-sign-on (SSO). 
+  - **Skills:** SQL, command-line scripting, Dimensional Modeling, Microstrategy Architect, Microstrategy Analyst, Informatica, client interviews & iteration.
+  - **Anonymized sample images:**
+    - conceptual model | main dashboard | documents dashboard 
+      -------|------|--------
+      ![RBA - conceptual model](README_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](README_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](README_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
