@@ -38,7 +38,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Flickr2Table
   - **Type:** Data Engineering
-  - **Description:** An independent project for a friend using the APIs of Flickr and Airtable to daily mirror any new photos added to a Flickr album in a searchable Airtable spreadsheet/database. The Airtable mobile app is then used to research previously seen flowers while in the field. Two Python processes run daily with Apache Airflow. Multiple photos of the same flower/plant are combined into single records and new text found in the Flickr description field is parsed into new Airtable columns dynamically as needed.
+  - **Description:** An independent project for a friend using the APIs of Flickr and Airtable to mirror daily any new photos added to a Flickr album in a searchable Airtable spreadsheet/database. The Airtable mobile app can then be used while in the field to research previously seen flowers. Two Python processes run daily through Apache Airflow. Multiple photos of the same flower/plant are combined into single records and new text found in the Flickr description field is parsed dynamically into new Airtable columns as needed.
   - **Skills:** Python, JSON, REST API, Oauth1, Apache Airflow, regex
   - **Link:** [GitHub](https://github.com/countingpigeons/flickr2table)
   - **Sample Images:**
