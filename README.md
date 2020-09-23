@@ -12,7 +12,7 @@ A collection of my recent data science and engineering projects and some custom 
 
 ### Titanic
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score top 8% on the public leaderboard.
+  - **Description:** An independent project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the public leaderboard.
   - **Skills:** Pandas, Numpy, Scikit-learn: Logistic Regression, RandomForest, AdaBoost, Tensorflow, Seaborn, Matplotlib Object Model, regex.
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
   - **Custom Visualizations:**
@@ -22,7 +22,7 @@ A collection of my recent data science and engineering projects and some custom 
 
 ### Winning Solitaire Decks
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards tagged whether they won at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks and thus couldn't generalize features in a shuffled deck of cards that lead toward a win in solitaire. 
+  - **Description:** An independent project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks and thus couldn't generalize features in shuffled decks of cards that tend to win in solitaire (e.g. how balanced are the colors or values across the deck etc...).
   - **Skills:** Pandas, Numpy, Tensorflow, AdaBoost Regression, Seaborn, Matplotlib Object Model
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/predicting-winning-solitaire-decks)
   - **Custom Visualizations:**
@@ -31,7 +31,7 @@ A collection of my recent data science and engineering projects and some custom 
       ![Solitaire - pairwise locations - multi](README_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](README_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](README_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](README_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](README_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
 
 ### Solitaire Simulator
-  - **Type:** Python engineering
+  - **Type:** Engineering
   - **Description:** A Solitaire simulator from scratch using "pure" object-oriented Python (only random, argparse, and logging modules). 1,000+ lines. By default, outputs a .csv file with 10K decks of training data. For each deck, this includes deck-order, win/lose flag, and # moves. 
   - **Skills:** Python, object-oriented programming, software design.
   - **Link:** [github](https://github.com/countingpigeons/winningdeck/blob/master/winning_deck.py)
