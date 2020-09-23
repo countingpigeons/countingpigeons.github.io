@@ -3,9 +3,9 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Readership Analytics for Sellside Banks 
   - **Type:** Business Intelligence.
-  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors over multiple slices. Implementated in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); wrote and scheduled a 70+ step daily ETL in the cloud; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
+  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implementated in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled an ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
   - **Skills:** SQL, Conceptual & Dimensional Modeling, ETL scripting, Microstrategy Architect, Microstrategy Desktop, Informatica
-  - **Anonymized sample images:**
+  - **Sample images:**
     - conceptual model | main dashboard | documents dashboard 
       -------|------|--------
       ![RBA - conceptual model](README_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](README_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](README_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
@@ -22,7 +22,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Winning Solitaire Decks
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks and thus couldn't generalize features in shuffled decks of cards that tend to win in solitaire (e.g. how balanced are the colors or values across the deck etc...).
+  - **Description:** An independent project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks (e.g. how balanced are the colors or values across the deck etc...) and determined that winning decks are exceptionally sensitive to small differences in the starting order and thus couldn't be generalized.
   - **Skills:** Pandas, Numpy, Tensorflow, AdaBoost Regression, Seaborn, Matplotlib Object Model
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/predicting-winning-solitaire-decks)
   - **Custom Visualizations:**
@@ -31,7 +31,17 @@ A collection of my recent data science, business intelligence, and engineering p
       ![Solitaire - pairwise locations - multi](README_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](README_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](README_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](README_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](README_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
 
 ### Solitaire Simulator
-  - **Type:** Engineering
-  - **Description:** A Solitaire simulator from scratch using "pure" object-oriented Python (only random, argparse, and logging modules). 1,000+ lines. By default, outputs a .csv file with 10K decks of training data. For each deck, this includes deck-order, win/lose flag, and # moves. 
+  - **Type:** Data Engineering
+  - **Description:** A Solitaire simulator from scratch using "pure" object-oriented Python (only random, argparse, and logging modules) to create clean training data for a Machine Learning project. 1,000+ lines. Outputs a .csv file with 10K rows and 54 columns including the deck-order, a win/lose flag, and # moves played for each deck. 
   - **Skills:** Python, object-oriented programming, software design
-  - **Link:** [github](https://github.com/countingpigeons/winningdeck/blob/master/winning_deck.py)
+  - **Link:** [GitHub](https://github.com/countingpigeons/winningdeck/blob/master/winning_deck.py)
+
+### Flickr2Table
+  - **Type:** Data Engineering
+  - **Description:** An independent project for a friend using the APIs of Flickr and Airtable to daily mirror any new photos added to a Flickr album in a searchable Airtable spreadsheet/database. The Airtable mobile app is then used to research previously seen flowers while in the field. Two Python processes run daily with Apache Airflow. Multiple photos of the same flower/plant are combined into single records and new text found in the Flickr description field is parsed into new Airtable columns dynamically as needed.
+  - **Skills:** Python, JSON, REST API, Oauth1, Apache Airflow, regex
+  - **Link:** [GitHub](https://github.com/countingpigeons/flickr2table)
+  - **Sample Images:**
+    - flickr album | photo detail | > apache airflow > | airtable 1 | airtable 2
+      ------------|------|--------|--------|------------
+      ![Flickr2Table - flickr album](README_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - single detail](README_flickr2table_flickr-title-and-description.png?raw=true "Photo") | ![Flickr2Table - apache airflow](README_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](README_flickr2table_airtable-filtered.png?raw=true "Photo") | ![Flickr2Table - airtable cont...](README_flickr2table_airtable-filtered-cont.png?raw=true "Photo")
