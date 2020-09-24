@@ -42,6 +42,6 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Skills:** Python, JSON, REST API, Oauth1, Apache Airflow, regex
   - **Link:** [GitHub](https://github.com/countingpigeons/flickr2table)
   - **Sample Images:**
-    - flickr album | photo detail | > apache airflow > | airtable 1 | airtable 2
-      ------------|------|--------|--------|------------
-      ![Flickr2Table - flickr album](README_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - single detail](README_flickr2table_flickr-title-and-description.png?raw=true "Photo") | ![Flickr2Table - apache airflow](README_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](README_flickr2table_airtable-filtered.png?raw=true "Photo") | ![Flickr2Table - airtable cont...](README_flickr2table_airtable-filtered-cont.png?raw=true "Photo")
+    - flickr album | > apache airflow > | airtable       
+      --------|------|--------
+      ![Flickr2Table - flickr album](README_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - apache airflow](README_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](README_flickr2table_airtable-filtered.png?raw=true "Photo")
