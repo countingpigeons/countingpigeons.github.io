@@ -3,7 +3,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Readership Analytics for Sellside Banks 
   - **Type:** Business Intelligence.
-  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implementated in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled an ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
+  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implementated in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled the ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
   - **Skills:** SQL, Conceptual & Dimensional Modeling, ETL scripting, Microstrategy Architect, Microstrategy Desktop, Informatica
   - **Sample images:**
     - conceptual model | main dashboard | documents dashboard 
@@ -12,8 +12,8 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Titanic
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the public leaderboard.
-  - **Skills:** Pandas, Numpy, Scikit-learn: Logistic Regression, RandomForest, AdaBoost, Tensorflow, Seaborn, Matplotlib Object Model, regex
+  - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the public leaderboard.
+  - **Skills:** Pandas, Numpy, Tensorflow, Logistic Regression, Random Forest, AdaBoost, Seaborn, Matplotlib Object Model, regex
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
   - **Custom Visualizations:**
     - fillna w/ sampling | feature importances | deep model accuracy | model comparison | identify difficult cases
@@ -22,7 +22,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Winning Solitaire Decks
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks (e.g. how balanced are the colors or values across the deck etc...) and determined that winning decks are exceptionally sensitive to small differences in the starting order and thus couldn't be generalized.
+  - **Description:** An independent Python project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks (e.g. how balanced are the colors or values across the deck etc...) and determined that winning decks are exceptionally sensitive to small differences in the starting order and thus couldn't be generalized.
   - **Skills:** Pandas, Numpy, Tensorflow, AdaBoost Regression, Seaborn, Matplotlib Object Model
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/predicting-winning-solitaire-decks)
   - **Custom Visualizations:**
@@ -45,3 +45,11 @@ A collection of my recent data science, business intelligence, and engineering p
     - flickr album | > apache airflow > | airtable       
       --------|------|--------
       ![Flickr2Table - flickr album](README_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - apache airflow](README_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](README_flickr2table_airtable-filtered.png?raw=true "Photo")
+
+### SuperBridge
+  - **Type:** Data Engineering
+  - **Description:** The default tool for engineering, QA, and customer-support to explore and update the Production Oracle DBoR at StarMine. Proposed the project, designed the views and UX, and provided all SQL statements and scripts (which I'd developed as a customer support engineer). This allows users to research underlying data in the same format as it appears on the product, make changes, trigger tasks, and automatically run all required clean-up and re-calculation tasks after manual updates.
+  - **Skills:** SQL, Oracle, software design
+  - **Image:**
+    - ![SuperBridge](README_superbridge.jpg?raw=true "Photo") 
+      
