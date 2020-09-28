@@ -1,5 +1,4 @@
 # Brian Markley
------
 # Analytics Portfolio
 A collection of my recent data science, business intelligence, and engineering projects and some custom visualizations. 
 
