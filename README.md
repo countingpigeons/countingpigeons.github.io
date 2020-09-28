@@ -1,4 +1,4 @@
-Brian Markley.  [LinkedIn](https://linkedin.com/in/brian-markley-sf)
+#### Brian Markley.  [LinkedIn](https://linkedin.com/in/brian-markley-sf)
 
 # Analytics Portfolio
 A collection of my recent data science, business intelligence, and engineering projects and some custom visualizations. 
