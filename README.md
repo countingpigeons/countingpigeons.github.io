@@ -3,7 +3,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Readership Analytics for Sellside Banks 
   - **Type:** Business Intelligence.
-  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implementated in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled the ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
+  - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implemented in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled the ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
   - **Skills:** SQL, Conceptual & Dimensional Modeling, ETL scripting, Microstrategy Architect, Microstrategy Desktop, Informatica
   - **Sample images:**
     - conceptual model | main dashboard | documents dashboard 
