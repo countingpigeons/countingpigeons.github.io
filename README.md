@@ -12,7 +12,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### Titanic
   - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the public leaderboard.
+  - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the Kaggle public leaderboard.
   - **Skills:** Pandas, Numpy, Tensorflow, Logistic Regression, Random Forest, AdaBoost, Seaborn, Matplotlib Object Model, regex
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
   - **Custom Visualizations:**
