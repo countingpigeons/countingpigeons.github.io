@@ -5,7 +5,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Type:** Business Intelligence.
   - **Description:** A Business Intelligence portal for investment banks to measure the market penetration of their published research documents versus competitors. Implemented in Microstrategy Cloud. Modeled data (conceptual, logical, physical, dimensional); built data warehouse; wrote and scheduled the ETL in the cloud to process 100K+ rows daily; created all reports, dashboards, and custom analytical SQL; and QA'd embedding into production as a web-app with Single-Sign-On (SSO). 
   - **Skills:** SQL, Conceptual & Dimensional Modeling, ETL scripting, Microstrategy Architect, Microstrategy Desktop, Informatica
-  - **Sample images:**
+  - **Sample images:** (click to expand)
     - conceptual model | main dashboard | documents dashboard 
       -------|------|--------
       ![RBA - conceptual model](ref_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](ref_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](ref_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
@@ -15,7 +15,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the Kaggle public leaderboard.
   - **Skills:** Pandas, Numpy, Tensorflow, Logistic Regression, Random Forest, AdaBoost, Seaborn, Matplotlib Object Model, regex
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
-  - **Custom Visualizations:**
+  - **Custom Visualizations:** (click to expand)
     - fillna w/ sampling | feature importances | deep model accuracy | model comparison | identify difficult cases
       ------------|------|--------|--------|------------
       ![Titanic - fill null ages with random sampling](ref_titanic_fill-null-ages.jpg?raw=true "Histogram") | ![Titanic - feature importances](ref_titanic_scikit-feature-importances.jpg?raw=true "BoxPlots") | ![Titanic - deep model accuracy](ref_titanic_deep-model-accuracy-detail.jpg?raw=true "MixedChart") | ![Titanic - model comparison](ref_titanic_model-comparisons-over-10-folds.jpg?raw=true "FormattedTable") | ![Titanic - investigate model failures](ref_titanic_investigate-model-failures.jpg?raw=true "FacetGrid")
@@ -25,7 +25,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Description:** An independent Python project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks (e.g. how balanced are the colors or values across the deck etc...) and determined that winning decks are exceptionally sensitive to small differences in the starting order and thus couldn't be generalized.
   - **Skills:** Pandas, Numpy, Tensorflow, AdaBoost Regression, Seaborn, Matplotlib Object Model
   - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/predicting-winning-solitaire-decks)
-  - **Custom Visualizations:**
+  - **Custom Visualizations:** (click to expand)
     - winningdeck pairwise values | pairwise detail | model accuracy | deck stats: color balance | deck stats: contiguousness
       ------------|------|--------|--------|------------
       ![Solitaire - pairwise locations - multi](ref_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](ref_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](ref_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](ref_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](ref_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
@@ -41,7 +41,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Description:** An independent project for a friend using the APIs of Flickr and Airtable to mirror daily any new photos added to a Flickr album in a searchable Airtable spreadsheet/database. The Airtable mobile app can then be used while in the field to research previously seen flowers. Two Python processes run daily through Apache Airflow. Multiple photos of the same flower/plant are combined into single records and new text found in the Flickr description field is parsed dynamically into new Airtable columns as needed.
   - **Skills:** Python, JSON, REST API, Oauth1, Apache Airflow, regex
   - **Link:** [GitHub](https://github.com/countingpigeons/flickr2table)
-  - **Sample Images:**
+  - **Sample Images:** (click to expand)
     - flickr album | > apache airflow > | airtable       
       --------|------|--------
       ![Flickr2Table - flickr album](ref_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - apache airflow](ref_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](ref_flickr2table_airtable-filtered.png?raw=true "Photo")
