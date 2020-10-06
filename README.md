@@ -8,7 +8,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Sample images:**
     - conceptual model | main dashboard | documents dashboard 
       -------|------|--------
-      ![RBA - conceptual model](README_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](README_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](README_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
+      ![RBA - conceptual model](ref_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](ref_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](ref_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
 
 ### Titanic
   - **Type:** Machine Learning / Jupyter Notebook
@@ -18,7 +18,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Custom Visualizations:**
     - fillna w/ sampling | feature importances | deep model accuracy | model comparison | identify difficult cases
       ------------|------|--------|--------|------------
-      ![Titanic - fill null ages with random sampling](README_titanic_fill-null-ages.jpg?raw=true "Histogram") | ![Titanic - feature importances](README_titanic_scikit-feature-importances.jpg?raw=true "BoxPlots") | ![Titanic - deep model accuracy](README_titanic_deep-model-accuracy-detail.jpg?raw=true "MixedChart") | ![Titanic - model comparison](README_titanic_model-comparisons-over-10-folds.jpg?raw=true "FormattedTable") | ![Titanic - investigate model failures](README_titanic_investigate-model-failures.jpg?raw=true "FacetGrid")
+      ![Titanic - fill null ages with random sampling](ref_titanic_fill-null-ages.jpg?raw=true "Histogram") | ![Titanic - feature importances](ref_titanic_scikit-feature-importances.jpg?raw=true "BoxPlots") | ![Titanic - deep model accuracy](ref_titanic_deep-model-accuracy-detail.jpg?raw=true "MixedChart") | ![Titanic - model comparison](ref_titanic_model-comparisons-over-10-folds.jpg?raw=true "FormattedTable") | ![Titanic - investigate model failures](ref_titanic_investigate-model-failures.jpg?raw=true "FacetGrid")
 
 ### Winning Solitaire Decks
   - **Type:** Machine Learning / Jupyter Notebook
@@ -28,7 +28,7 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Custom Visualizations:**
     - winningdeck pairwise values | pairwise detail | model accuracy | deck stats: color balance | deck stats: contiguousness
       ------------|------|--------|--------|------------
-      ![Solitaire - pairwise locations - multi](README_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](README_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](README_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](README_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](README_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
+      ![Solitaire - pairwise locations - multi](ref_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](ref_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](ref_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](ref_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](ref_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
 
 ### Solitaire Simulator
   - **Type:** Data Engineering
@@ -44,12 +44,12 @@ A collection of my recent data science, business intelligence, and engineering p
   - **Sample Images:**
     - flickr album | > apache airflow > | airtable       
       --------|------|--------
-      ![Flickr2Table - flickr album](README_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - apache airflow](README_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](README_flickr2table_airtable-filtered.png?raw=true "Photo")
+      ![Flickr2Table - flickr album](ref_flickr2table_flickr-album-view.png?raw=true "Photo") | ![Flickr2Table - apache airflow](ref_flickr2table_airflow-tree-view.png?raw=true "Photo") | ![Flickr2Table - airtable](ref_flickr2table_airtable-filtered.png?raw=true "Photo")
 
 ### SuperBridge
   - **Type:** Data Engineering
   - **Description:** The default tool for engineering, QA, and customer-support to explore and update the Production Oracle DBoR at StarMine. Proposed the project, designed the views and UX, and provided all SQL statements and scripts (which I'd developed as a customer support engineer). This allows users to research underlying data in the same format as it appears on the product, make changes, trigger tasks, and automatically run all required clean-up and re-calculation tasks after manual updates.
   - **Skills:** SQL, Oracle, software design
   - **Image:**
-    - ![SuperBridge](README_superbridge.jpg?raw=true "Photo") 
+    - ![SuperBridge](ref_superbridge.jpg?raw=true "Photo") 
       
