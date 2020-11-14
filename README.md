@@ -10,16 +10,6 @@ A collection of my recent data science, business intelligence, and engineering p
       -------|------|--------
       ![RBA - conceptual model](ref_rba_conceptual-model.jpg?raw=true "Visio") | ![RBA - main dashboard](ref_rba_main-anonymized.jpg?raw=true "BI Dashboard") | ![RBA - documents dashboard](ref_rba_documents-anonymized.jpg?raw=true "BI Dashboard")
 
-### Titanic
-  - **Type:** Machine Learning / Jupyter Notebook
-  - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the Kaggle public leaderboard.
-  - **Skills:** Pandas, Numpy, Tensorflow, Logistic Regression, Random Forest, AdaBoost, Seaborn, Matplotlib Object Model, regex
-  - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
-  - **Custom Visualizations:** (click to expand)
-    - fillna w/ sampling | feature importances | deep model accuracy | model comparison | identify difficult cases
-      ------------|------|--------|--------|------------
-      ![Titanic - fill null ages with random sampling](ref_titanic_fill-null-ages.jpg?raw=true "Histogram") | ![Titanic - feature importances](ref_titanic_scikit-feature-importances.jpg?raw=true "BoxPlots") | ![Titanic - deep model accuracy](ref_titanic_deep-model-accuracy-detail.jpg?raw=true "MixedChart") | ![Titanic - model comparison](ref_titanic_model-comparisons-over-10-folds.jpg?raw=true "FormattedTable") | ![Titanic - investigate model failures](ref_titanic_investigate-model-failures.jpg?raw=true "FacetGrid")
-
 ### Winning Solitaire Decks
   - **Type:** Machine Learning / Jupyter Notebook
   - **Description:** An independent Python project from a personal curiosity using Tensorflow deep models trained on various features over 10K decks of cards which won or lost at solitaire in a self-written simulator (below). Found no statistically-significant difference between winning and losing decks (e.g. how balanced are the colors or values across the deck etc...) and determined that winning decks are exceptionally sensitive to small differences in the starting order and thus couldn't be generalized.
@@ -29,6 +19,16 @@ A collection of my recent data science, business intelligence, and engineering p
     - winningdeck pairwise values | pairwise detail | model accuracy | deck stats: color balance | deck stats: contiguousness
       ------------|------|--------|--------|------------
       ![Solitaire - pairwise locations - multi](ref_solitaire_pairwise_card_values_multi.jpg?raw=true "ScatterGrid") | ![Solitaire - pairwise locations - single](ref_solitaire_pairwise_card_values_single.jpg?raw=true "Scatter") | ![Solitaire - Model accuracy - added noisy explanatory](ref_solitaire_model-accuracy-w-noisified-num-moves.jpg?raw=true "MixedChart") | ![Solitaire - stats - color balance](ref_solitaire_stats-color-balance.jpg?raw=true "Scatter") | ![Solitaire - stats - contiguous vs chunky](ref_solitaire_stats-contiguous-vs-chunky.jpg?raw=true "Scatter")
+
+### Titanic
+  - **Type:** Machine Learning / Jupyter Notebook
+  - **Description:** An independent Python project using 4 independent classification models, various voting ensembles, and features I haven't seen elsewhere to score in the top 8% on the Kaggle public leaderboard.
+  - **Skills:** Pandas, Numpy, Tensorflow, Logistic Regression, Random Forest, AdaBoost, Seaborn, Matplotlib Object Model, regex
+  - **Link:** [Kaggle](https://www.kaggle.com/countingpigeons/titanic-survival-cross-validated-voting-ensembles)
+  - **Custom Visualizations:** (click to expand)
+    - fillna w/ sampling | feature importances | deep model accuracy | model comparison | identify difficult cases
+      ------------|------|--------|--------|------------
+      ![Titanic - fill null ages with random sampling](ref_titanic_fill-null-ages.jpg?raw=true "Histogram") | ![Titanic - feature importances](ref_titanic_scikit-feature-importances.jpg?raw=true "BoxPlots") | ![Titanic - deep model accuracy](ref_titanic_deep-model-accuracy-detail.jpg?raw=true "MixedChart") | ![Titanic - model comparison](ref_titanic_model-comparisons-over-10-folds.jpg?raw=true "FormattedTable") | ![Titanic - investigate model failures](ref_titanic_investigate-model-failures.jpg?raw=true "FacetGrid")
 
 ### Solitaire Simulator
   - **Type:** Data Engineering
@@ -48,7 +48,7 @@ A collection of my recent data science, business intelligence, and engineering p
 
 ### SuperBridge
   - **Type:** Data Engineering
-  - **Description:** The default tool for engineering, QA, and customer-support to explore and update the Production Oracle DBoR at StarMine. Proposed the project, designed the views and UX, and provided all SQL statements and scripts (which I'd developed as a customer support engineer). This allows users to research underlying data in the same format as it appears on the product, make changes, trigger tasks, and automatically run all required clean-up and re-calculation tasks after manual updates.
+  - **Description:** The default tool for engineering, QA, and customer-support to explore and update the Production Oracle DBoR at StarMine. Proposed the project, designed the views and UX, and coded all SQL statements and scripts (developed as a customer support engineer). This allows users to research underlying data in the same format as it appears on the product, make changes, trigger tasks, and automatically run all required clean-up and re-calculation tasks after manual updates.
   - **Skills:** SQL, Oracle, software design
   - **Image:**
     - ![SuperBridge](ref_superbridge.jpg?raw=true "Photo") 
